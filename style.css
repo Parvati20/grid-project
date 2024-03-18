@@ -1,0 +1,91 @@
+*{
+    padding: 5px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+}
+.container{
+    display: grid;
+    height: 745px;
+    border: 2px solid black;
+    gap: 10;
+    row-gap:10px;
+    column-gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.parvati{
+    border: 2px solid black;
+    padding: 10px;
+}
+#parvati1{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+#parvati2{
+    grid-column-start:1 ;
+    grid-column-end: 2;
+}
+#parvati3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+#parvati4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+#parvati5{
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+#parvati6{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#parvati7{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+#parvati8{
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+#parvati9{
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+#parvati10{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#parvati11{
+    grid-column-start:2;
+    grid-column-end: 3;
+}
+#parvati12{
+    grid-column-start:3;
+    grid-column-end:5;
+}
+#parvati13{
+    grid-column-start:5;
+    grid-column-end:6;
+}
+#parvati14{
+    grid-column-start:6;
+    grid-column-end:7;
+}
+#parvati15{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+.parvati{
+    justify-content: center;
+    text-align: center;
+    color: darkred;
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+
